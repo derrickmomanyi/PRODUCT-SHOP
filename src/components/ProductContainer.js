@@ -3,7 +3,7 @@
 import React, {useState, useEffect} from "react";
 
 
-import ProductList from "./ProductList"
+import ProductCard from "./ProductCard"
 
 
 function ProductContainer(){
@@ -15,11 +15,11 @@ function ProductContainer(){
     .then((res) => res.json())
     .then((products) => setProducts(products))
   }, [])
-  console.log(products)
+ 
     return(
         <>
                 
-        <ProductList />
+       <ProductCard products = {products}/>
         
         </>
     )
