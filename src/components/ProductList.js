@@ -1,0 +1,1 @@
+// maps the fetched data and passes the props to Card

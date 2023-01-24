@@ -1,0 +1,1 @@
+// main component // parent component that holds all components
